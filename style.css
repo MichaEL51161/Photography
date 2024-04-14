@@ -156,9 +156,10 @@ justify-content: space-around;
 
 @media (max-width:413px) {
     .EntireBody{
-        /* background: white; */
+        background: white;
         height: 200vh;
         width: 100vw;
+        
     }
     .EntireBody > .NavBar{
         display: flex;
@@ -198,6 +199,7 @@ justify-content: space-around;
         justify-content: center;
         flex-direction: column;
         flex-wrap: nowrap;
+        background-color: white;
     }
 
     .EntireBody > .Body > .b{
@@ -206,9 +208,11 @@ justify-content: space-around;
         display: flex;
         align-items: center;
         font-size: 13px;
+        color: black;
     }
     .EntireBody > .SecondBody{
         height: 70vh;
+        width: 100%;
         flex-direction: column;
         display: flex;
         align-items: center;
@@ -216,6 +220,7 @@ justify-content: space-around;
     }
     .EntireBody > .SecondBody > .c{
         height: 30%;
+        width: 70%;
     }
 
     .EntireBody >.AnotherView {
