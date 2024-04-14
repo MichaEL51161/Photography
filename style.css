@@ -45,8 +45,9 @@ justify-content: space-around;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color:rgb(15, 15, 22);
-    height: 70vh;
+    height: 50vh;
     width: 99vw;
+    margin-top: 10%;
 }
 
 .EntireBody > .Body > .b{
