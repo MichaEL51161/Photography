@@ -12,12 +12,23 @@
     <div class="EntireBody">
         <!-- first div body  -->
 <div class="NavBar">
-    <div class="NavBarContainer">
+    <div class="NavBarContainer" id="bugger">
+
         <div class="home a">HOME</div>
         <div class="portfolio a">PORTFOLIO</div>
         <div class="packages a">PACKAGES</div>
         <div class="contact a">CONTACT US</div>
+        <div class="HandBurgerClose" onclick="myFuncClose()" id="close">
+            <div class="one"></div>
+            <div class="one two"></div>
+        </div>
     </div>
+    <div class="HandBurgerOpen" id="open" onclick="myFuncOpen()">
+        <div class="one"></div>
+        <div class="one"></div>
+        <div class="one"></div>
+    </div>
+    
 </div>
 
 <!-- second div border -->
@@ -60,7 +71,7 @@
     <div class="pin c">PACKAGES</div>
 </div>
 
-<!-- div for anotherviewheight -->gi
+<!-- div for anotherviewheight -->
 <div class="AnotherView">
     <div class="SecondBox">
     <div class="onc d"><img src="/images/DSC_850011.jpg" alt=""></div>
