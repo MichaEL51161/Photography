@@ -268,7 +268,7 @@ justify-content: space-around;
     }
 
     .b img{
-        width: 100vw;
+        width: 96vw;
     }
 
     .EntireBody > .Body{
@@ -290,17 +290,36 @@ justify-content: space-around;
         font-size: 13px;
         color: black;
     }
-    .EntireBody > .SecondBody{
-        height: 70vh;
+
+    .EntireBody > .WholeSecondBody{
+        width: 100vw;
+        height: 170vh;
+        background: rgb(15, 15, 22);
+    }
+    .EntireBody >.WholeSecondBody > .SecondBody{
+        height: 50vh;
         width: 100%;
         flex-direction: column;
         display: flex;
         align-items: center;
         justify-content: space-around;
+        color: white;
     }
-    .EntireBody > .SecondBody > .c{
-        height: 30%;
+    .WholeSecondBody >.SecondBody > .c{
+        border: 2px solid #fff;
+        border-radius: 25px;
+        height: 25%;
         width: 70%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .c{
+        background: red;
+        box-shadow: 2px 5px 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
     }
 
     .EntireBody >.AnotherView {
@@ -320,14 +339,17 @@ justify-content: space-around;
         justify-content: center;
         align-items: center;
     }
-    
+    .d img{
+width: 99%;
+border-radius: 15px;
+    }
 
     .AntherBody{
         display: flex;
         flex-direction: column;
         height: 20vh;
         width: 100vw;
-        margin-top: -10%;
+        margin-top: -15%;
     }
 
     .AntherBody > .ThirdBox > .e{
