@@ -291,7 +291,7 @@ justify-content: space-around;
     }
 
     .EntireBody > .Body{
-        height: 140vh;
+        height: 180vh;
         width: 100vw;
         display: flex;
         align-items: center;
